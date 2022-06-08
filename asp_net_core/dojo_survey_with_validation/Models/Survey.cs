@@ -11,6 +11,7 @@ namespace dojo_survey_with_model.Models
         [Required]
         public string Location {get; set;}
         [Required]
+        [Display(Name = "Favorite Language")]
         public string FaveLanguage {get; set;}
         [MinLength(20, ErrorMessage = "Comments must be at least 20 characters.")]
         public string? Comment {get; set;}

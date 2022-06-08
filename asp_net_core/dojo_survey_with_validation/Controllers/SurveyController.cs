@@ -13,7 +13,7 @@ public class SurveyController : Controller
         return View();
     }
 
-    [HttpPost("survey/post")]
+    [HttpPost("")]
     public IActionResult Submit(Survey survey)
     {
         if(ModelState.IsValid)
