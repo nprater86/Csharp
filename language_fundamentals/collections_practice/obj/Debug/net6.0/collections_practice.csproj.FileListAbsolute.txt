@@ -1,0 +1,15 @@
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\collections_practice\bin\Debug\net6.0\collections_practice.exe
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\collections_practice\bin\Debug\net6.0\collections_practice.deps.json
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\collections_practice\bin\Debug\net6.0\collections_practice.runtimeconfig.json
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\collections_practice\bin\Debug\net6.0\collections_practice.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\collections_practice\bin\Debug\net6.0\collections_practice.pdb
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\collections_practice\obj\Debug\net6.0\collections_practice.csproj.AssemblyReference.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\collections_practice\obj\Debug\net6.0\collections_practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\collections_practice\obj\Debug\net6.0\collections_practice.AssemblyInfoInputs.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\collections_practice\obj\Debug\net6.0\collections_practice.AssemblyInfo.cs
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\collections_practice\obj\Debug\net6.0\collections_practice.csproj.CoreCompileInputs.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\collections_practice\obj\Debug\net6.0\collections_practice.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\collections_practice\obj\Debug\net6.0\refint\collections_practice.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\collections_practice\obj\Debug\net6.0\collections_practice.pdb
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\collections_practice\obj\Debug\net6.0\collections_practice.genruntimeconfig.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\collections_practice\obj\Debug\net6.0\ref\collections_practice.dll

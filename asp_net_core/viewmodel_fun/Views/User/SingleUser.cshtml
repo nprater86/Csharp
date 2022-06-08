@@ -1,0 +1,12 @@
+@model viewmodel_fun.Models.User
+
+@{
+    ViewData["Title"] = "User";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Here is a User!</h1>
+    <div class="border p-3">
+        <h2>@Model.firstName @Model.lastName</h2>
+    </div>
+</div>

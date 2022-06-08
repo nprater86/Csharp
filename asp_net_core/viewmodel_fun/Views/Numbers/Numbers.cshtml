@@ -1,0 +1,18 @@
+@model viewmodel_fun.Models.Numbers
+
+@{
+    ViewData["Title"] = "Numbers";
+}
+
+<div class="d-flex flex-column align-items-center">
+    <h1 class="display-4">Here are Numbers</h1>
+    <div class="border p-3">
+        <ul class="list-unstyled">
+            @{
+                foreach(var num in @Model.numbers){
+                    <li>@num</li>
+                }
+            }
+        </ul>
+    </div>
+</div>

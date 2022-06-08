@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "OgsUckeF6kJhDw/FLASS1p6xzDXvoYik95mrs7egkg4=",
+  "Source": "portfolio_ii",
+  "BasePath": "_content/portfolio_ii",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "portfolio_ii\\wwwroot",
+      "Source": "portfolio_ii",
+      "ContentRoot": "C:\\Users\\nprat\\OneDrive\\Documents\\Coding_Dojo\\Assignments\\csharp\\asp_net_core\\portfolio_ii\\wwwroot\\",
+      "BasePath": "_content/portfolio_ii",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\nprat\\OneDrive\\Documents\\Coding_Dojo\\Assignments\\csharp\\asp_net_core\\portfolio_ii\\wwwroot\\css\\style.css",
+      "SourceId": "portfolio_ii",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nprat\\OneDrive\\Documents\\Coding_Dojo\\Assignments\\csharp\\asp_net_core\\portfolio_ii\\wwwroot\\",
+      "BasePath": "_content/portfolio_ii",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\nprat\\OneDrive\\Documents\\Coding_Dojo\\Assignments\\csharp\\asp_net_core\\portfolio_ii\\wwwroot\\images\\gigachad.jpg",
+      "SourceId": "portfolio_ii",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nprat\\OneDrive\\Documents\\Coding_Dojo\\Assignments\\csharp\\asp_net_core\\portfolio_ii\\wwwroot\\",
+      "BasePath": "_content/portfolio_ii",
+      "RelativePath": "images/gigachad.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\gigachad.jpg"
+    }
+  ]
+}

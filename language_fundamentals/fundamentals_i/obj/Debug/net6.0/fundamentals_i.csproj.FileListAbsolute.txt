@@ -1,0 +1,15 @@
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\fundamentals_i\bin\Debug\net6.0\fundamentals_i.exe
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\fundamentals_i\bin\Debug\net6.0\fundamentals_i.deps.json
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\fundamentals_i\bin\Debug\net6.0\fundamentals_i.runtimeconfig.json
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\fundamentals_i\bin\Debug\net6.0\fundamentals_i.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\fundamentals_i\bin\Debug\net6.0\fundamentals_i.pdb
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\fundamentals_i\obj\Debug\net6.0\fundamentals_i.csproj.AssemblyReference.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\fundamentals_i\obj\Debug\net6.0\fundamentals_i.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\fundamentals_i\obj\Debug\net6.0\fundamentals_i.AssemblyInfoInputs.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\fundamentals_i\obj\Debug\net6.0\fundamentals_i.AssemblyInfo.cs
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\fundamentals_i\obj\Debug\net6.0\fundamentals_i.csproj.CoreCompileInputs.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\fundamentals_i\obj\Debug\net6.0\fundamentals_i.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\fundamentals_i\obj\Debug\net6.0\refint\fundamentals_i.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\fundamentals_i\obj\Debug\net6.0\fundamentals_i.pdb
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\fundamentals_i\obj\Debug\net6.0\fundamentals_i.genruntimeconfig.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\fundamentals_i\obj\Debug\net6.0\ref\fundamentals_i.dll

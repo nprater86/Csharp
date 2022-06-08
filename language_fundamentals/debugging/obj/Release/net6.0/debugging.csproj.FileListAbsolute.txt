@@ -1,0 +1,15 @@
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\debugging\bin\Release\net6.0\debugging.exe
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\debugging\bin\Release\net6.0\debugging.deps.json
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\debugging\bin\Release\net6.0\debugging.runtimeconfig.json
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\debugging\bin\Release\net6.0\debugging.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\debugging\bin\Release\net6.0\debugging.pdb
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\debugging\obj\Release\net6.0\debugging.csproj.AssemblyReference.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\debugging\obj\Release\net6.0\debugging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\debugging\obj\Release\net6.0\debugging.AssemblyInfoInputs.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\debugging\obj\Release\net6.0\debugging.AssemblyInfo.cs
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\debugging\obj\Release\net6.0\debugging.csproj.CoreCompileInputs.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\debugging\obj\Release\net6.0\debugging.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\debugging\obj\Release\net6.0\refint\debugging.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\debugging\obj\Release\net6.0\debugging.pdb
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\debugging\obj\Release\net6.0\debugging.genruntimeconfig.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\debugging\obj\Release\net6.0\ref\debugging.dll

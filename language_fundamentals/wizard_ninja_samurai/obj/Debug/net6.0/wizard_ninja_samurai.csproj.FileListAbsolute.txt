@@ -1,0 +1,15 @@
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\wizard_ninja_samurai\bin\Debug\net6.0\wizard_ninja_samurai.exe
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\wizard_ninja_samurai\bin\Debug\net6.0\wizard_ninja_samurai.deps.json
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\wizard_ninja_samurai\bin\Debug\net6.0\wizard_ninja_samurai.runtimeconfig.json
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\wizard_ninja_samurai\bin\Debug\net6.0\wizard_ninja_samurai.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\wizard_ninja_samurai\bin\Debug\net6.0\wizard_ninja_samurai.pdb
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\wizard_ninja_samurai\obj\Debug\net6.0\wizard_ninja_samurai.csproj.AssemblyReference.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\wizard_ninja_samurai\obj\Debug\net6.0\wizard_ninja_samurai.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\wizard_ninja_samurai\obj\Debug\net6.0\wizard_ninja_samurai.AssemblyInfoInputs.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\wizard_ninja_samurai\obj\Debug\net6.0\wizard_ninja_samurai.AssemblyInfo.cs
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\wizard_ninja_samurai\obj\Debug\net6.0\wizard_ninja_samurai.csproj.CoreCompileInputs.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\wizard_ninja_samurai\obj\Debug\net6.0\wizard_ninja_samurai.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\wizard_ninja_samurai\obj\Debug\net6.0\refint\wizard_ninja_samurai.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\wizard_ninja_samurai\obj\Debug\net6.0\wizard_ninja_samurai.pdb
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\wizard_ninja_samurai\obj\Debug\net6.0\wizard_ninja_samurai.genruntimeconfig.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\wizard_ninja_samurai\obj\Debug\net6.0\ref\wizard_ninja_samurai.dll

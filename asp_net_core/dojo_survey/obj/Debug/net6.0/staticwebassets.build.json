@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "ayPkgV5hfuo5uswhQiEjN+A4FQQGNVWPIEWJk7HipKg=",
+  "Source": "dojo_survey",
+  "BasePath": "_content/dojo_survey",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "dojo_survey\\wwwroot",
+      "Source": "dojo_survey",
+      "ContentRoot": "C:\\Users\\nprat\\OneDrive\\Documents\\Coding_Dojo\\Assignments\\Csharp\\asp_net_core\\dojo_survey\\wwwroot\\",
+      "BasePath": "_content/dojo_survey",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\nprat\\OneDrive\\Documents\\Coding_Dojo\\Assignments\\Csharp\\asp_net_core\\dojo_survey\\wwwroot\\css\\style.css",
+      "SourceId": "dojo_survey",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nprat\\OneDrive\\Documents\\Coding_Dojo\\Assignments\\Csharp\\asp_net_core\\dojo_survey\\wwwroot\\",
+      "BasePath": "_content/dojo_survey",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}

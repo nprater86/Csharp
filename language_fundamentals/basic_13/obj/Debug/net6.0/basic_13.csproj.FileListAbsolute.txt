@@ -1,0 +1,15 @@
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\basic_13\bin\Debug\net6.0\basic_13.exe
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\basic_13\bin\Debug\net6.0\basic_13.deps.json
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\basic_13\bin\Debug\net6.0\basic_13.runtimeconfig.json
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\basic_13\bin\Debug\net6.0\basic_13.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\basic_13\bin\Debug\net6.0\basic_13.pdb
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\basic_13\obj\Debug\net6.0\basic_13.csproj.AssemblyReference.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\basic_13\obj\Debug\net6.0\basic_13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\basic_13\obj\Debug\net6.0\basic_13.AssemblyInfoInputs.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\basic_13\obj\Debug\net6.0\basic_13.AssemblyInfo.cs
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\basic_13\obj\Debug\net6.0\basic_13.csproj.CoreCompileInputs.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\basic_13\obj\Debug\net6.0\basic_13.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\basic_13\obj\Debug\net6.0\refint\basic_13.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\basic_13\obj\Debug\net6.0\basic_13.pdb
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\basic_13\obj\Debug\net6.0\basic_13.genruntimeconfig.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\basic_13\obj\Debug\net6.0\ref\basic_13.dll

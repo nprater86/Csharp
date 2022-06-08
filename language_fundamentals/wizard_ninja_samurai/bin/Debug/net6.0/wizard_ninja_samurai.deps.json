@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "wizard_ninja_samurai/1.0.0": {
+        "runtime": {
+          "wizard_ninja_samurai.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "wizard_ninja_samurai/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

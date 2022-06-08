@@ -1,0 +1,15 @@
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\iron_ninja\bin\Debug\net6.0\iron_ninja.exe
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\iron_ninja\bin\Debug\net6.0\iron_ninja.deps.json
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\iron_ninja\bin\Debug\net6.0\iron_ninja.runtimeconfig.json
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\iron_ninja\bin\Debug\net6.0\iron_ninja.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\iron_ninja\bin\Debug\net6.0\iron_ninja.pdb
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\iron_ninja\obj\Debug\net6.0\iron_ninja.csproj.AssemblyReference.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\iron_ninja\obj\Debug\net6.0\iron_ninja.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\iron_ninja\obj\Debug\net6.0\iron_ninja.AssemblyInfoInputs.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\iron_ninja\obj\Debug\net6.0\iron_ninja.AssemblyInfo.cs
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\iron_ninja\obj\Debug\net6.0\iron_ninja.csproj.CoreCompileInputs.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\iron_ninja\obj\Debug\net6.0\iron_ninja.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\iron_ninja\obj\Debug\net6.0\refint\iron_ninja.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\iron_ninja\obj\Debug\net6.0\iron_ninja.pdb
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\iron_ninja\obj\Debug\net6.0\iron_ninja.genruntimeconfig.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\iron_ninja\obj\Debug\net6.0\ref\iron_ninja.dll

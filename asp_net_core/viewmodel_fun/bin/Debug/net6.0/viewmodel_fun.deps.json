@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "viewmodel_fun/1.0.0": {
+        "runtime": {
+          "viewmodel_fun.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "viewmodel_fun/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header styles */
+header {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+nav span {
+    font-weight: bold;
+}
+
+/* container styles */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Flex Styles */
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/*index styles*/
+.indexContent {
+    margin-top: 50px;
+}
+
+.about-me-section {
+    margin-top: 50px;
+}
+.self-image {
+    flex:1;
+    gap: 20px;
+}
+
+.self-image img {
+    height: 250px;
+    width: auto;
+}
+
+.self-description {
+    flex:1;
+}

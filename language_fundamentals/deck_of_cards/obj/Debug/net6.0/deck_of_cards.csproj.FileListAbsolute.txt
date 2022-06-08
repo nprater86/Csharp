@@ -1,0 +1,15 @@
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\deck_of_cards\bin\Debug\net6.0\deck_of_cards.exe
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\deck_of_cards\bin\Debug\net6.0\deck_of_cards.deps.json
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\deck_of_cards\bin\Debug\net6.0\deck_of_cards.runtimeconfig.json
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\deck_of_cards\bin\Debug\net6.0\deck_of_cards.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\deck_of_cards\bin\Debug\net6.0\deck_of_cards.pdb
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\deck_of_cards\obj\Debug\net6.0\deck_of_cards.csproj.AssemblyReference.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\deck_of_cards\obj\Debug\net6.0\deck_of_cards.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\deck_of_cards\obj\Debug\net6.0\deck_of_cards.AssemblyInfoInputs.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\deck_of_cards\obj\Debug\net6.0\deck_of_cards.AssemblyInfo.cs
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\deck_of_cards\obj\Debug\net6.0\deck_of_cards.csproj.CoreCompileInputs.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\deck_of_cards\obj\Debug\net6.0\deck_of_cards.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\deck_of_cards\obj\Debug\net6.0\refint\deck_of_cards.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\deck_of_cards\obj\Debug\net6.0\deck_of_cards.pdb
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\deck_of_cards\obj\Debug\net6.0\deck_of_cards.genruntimeconfig.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\csharp\language_fundamentals\deck_of_cards\obj\Debug\net6.0\ref\deck_of_cards.dll
