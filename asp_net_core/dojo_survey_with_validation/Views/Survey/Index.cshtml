@@ -1,0 +1,51 @@
+﻿@model Survey
+
+@{
+    ViewData["Title"] = "Dojo Survey";
+}
+
+<div class="border rounded p-5 w-75 m-auto">
+    <form asp-action="Submit" asp-constroller="Survey" method="post" class="w-100 d-flex flex-column">
+        <div class="mb-3 row d-flex justify-content-between">
+            <label asp-for="Name" class="col-6 col-form-label"></label>
+            <div class="col-6">
+                <input class="form-control" asp-for="Name">
+            </div>
+        </div>
+        <span style="color:red;" asp-validation-for="Name"></span>
+        <div class="mb-3 row d-flex justify-content-between">
+            <label asp-for="Location" class="col-6 col-form-label"></label>
+            <div class="col-6">
+                <select class="form-select" asp-for="Location">
+                    <option selected disabled hidden>Choose a Location</option>
+                    <option value="Bellevue, WA">Bellevue, WA</option>
+                    <option value="Chicago, IL">Chicago, IL</option>
+                    <option value="Los Angeles, CA">Los Angeles, CA</option>
+                    <option value="Silicon Valley, CA">Silicon Valley, CA</option>
+                </select>
+            </div>
+        </div>
+        <span style="color:red;" asp-validation-for="Location"></span>
+        <div class="mb-3 row d-flex justify-content-between">
+            <label asp-for="FaveLanguage" class="col-6 col-form-label"></label>
+            <div class="col-6">
+                <select class="form-select" asp-for="FaveLanguage">
+                    <option selected disabled hidden>Choose a Language</option>
+                    <option value="C#">C#</option>
+                    <option value="MERN">MERN</option>
+                    <option value="Python">Python</option>
+                    <option value="Java">Java</option>
+                </select>
+            </div>
+        </div>
+        <span style="color:red;" asp-validation-for="FaveLanguage"></span>
+        <div class="mb-3 row d-flex justify-content-between">
+            <label class="form-label" asp-for="Comment"></label>
+            <textarea class="form-control" asp-for="Comment" rows=5></textarea>
+        </div>
+        <span style="color:red;" asp-validation-for="Comment"></span>
+        <div class="align-self-end">
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+    </form>
+</div>

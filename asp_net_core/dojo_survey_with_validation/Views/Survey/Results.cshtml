@@ -1,0 +1,40 @@
+@model Survey
+
+@{
+    ViewData["Title"] = "Survey Results";
+}
+
+<div class="d-flex flex-column w-75 m-auto">
+    <a href="/">Go Home</a>
+    <div class="border rounded p-5">
+        <div class="row">
+            <h2 class="mb-5"><u>Submitted Info</u></h2>
+            <div class="container w-75">
+                <div class="row mb-3">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-auto"><h3>Name:</h3></div>
+                        <div class="col-auto"><h3>@Model.Name</h3></div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-auto"><h3>Location:</h3></div>
+                        <div class="col-auto"><h3>@Model.Location</h3></div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-auto"><h3>Favorite Language:</h3></div>
+                        <div class="col-auto"><h3>@Model.FaveLanguage</h3></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-auto"><h3>Comment:</h3></div>
+                        <div class="col-auto text-wrap"><h3>@Model.Comment</h3></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
