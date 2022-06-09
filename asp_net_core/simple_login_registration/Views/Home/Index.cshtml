@@ -1,0 +1,69 @@
+﻿@model IndexViewModel
+
+@{
+    ViewData["Title"] = "Login/Register";
+}
+
+<div class="d-flex w-100 justify-content-between">
+    <div class="d-flex flex-column align-items-center">
+        <h1 class="mb-3">Register</h1>
+        <form class="form-width" asp-controller="user" asp-action="register" method="post">
+            <div class="form-group">
+                <label class="form-label" asp-for="regUser.FirstName"></label>
+                <input class="form-control" asp-for="regUser.FirstName">
+            </div>
+            <div class="mb-3">
+                <span class="error-message" asp-validation-for="regUser.FirstName"></span>
+            </div>
+            <div class="form-group">
+                <label class="form-label" asp-for="regUser.LastName"></label>
+                <input class="form-control" asp-for="regUser.LastName">
+            </div>
+            <div class="mb-3">
+                <span class="error-message" asp-validation-for="regUser.LastName"></span>
+            </div>
+            <div class="form-group">
+                <label class="form-label" asp-for="regUser.NewEmail"></label>
+                <input class="form-control" asp-for="regUser.NewEmail">
+            </div>
+            <div class="mb-3">
+                <span class="error-message" asp-validation-for="regUser.NewEmail"></span>
+            </div>
+            <div class="form-group">
+                <label class="form-label" asp-for="regUser.NewPassword"></label>
+                <input class="form-control" asp-for="regUser.NewPassword">
+            </div>
+            <div class="mb-3">
+                <span class="error-message" asp-validation-for="regUser.NewPassword"></span>
+            </div>
+            <div class="form-group">
+                <label class="form-label" asp-for="regUser.ConfirmNewPassword"></label>
+                <input class="form-control" asp-for="regUser.ConfirmNewPassword">
+            </div>
+            <div class="mb-3">
+                <span class="error-message" asp-validation-for="regUser.ConfirmNewPassword"></span>
+            </div>
+            <input class="btn btn-primary" value="Register" type="submit">
+        </form>
+    </div>
+    <div class="d-flex flex-column align-items-center">
+        <h1 class="mb-3">Login</h1>
+        <form class="form-width" asp-controller="user" asp-action="login" method="post">
+            <div class="form-group">
+                <label class="form-label" asp-for="logUser.Email"></label>
+                <input class="form-control" asp-for="logUser.Email">
+            </div>
+            <div class="mb-3">
+                <span class="error-message" asp-validation-for="logUser.Email"></span>
+            </div>
+            <div class="form-group">
+                <label class="form-label" asp-for="logUser.Password"></label>
+                <input class="form-control" asp-for="logUser.Password">
+            </div>
+            <div class="mb-3">
+                <span class="error-message" asp-validation-for="logUser.Password"></span>
+            </div>
+            <input class="btn btn-primary" value="Login" type="submit">
+        </form>
+    </div>
+</div>

@@ -1,0 +1,40 @@
+@model RegUser
+
+<form asp-controller="user" asp-action="register" method="post">
+    <div class="form-group">
+        <label class="form-label" asp-for="FirstName"></label>
+        <input class="form-control" asp-for="FirstName">
+    </div>
+    <div class="mb-3">
+        <span class=".error-message" asp-validation-for="FirstName"></span>
+    </div>
+    <div class="form-group">
+        <label class="form-label" asp-for="LastName"></label>
+        <input class="form-control" asp-for="LastName">
+    </div>
+    <div class="mb-3">
+        <span class=".error-message" asp-validation-for="LastName"></span>
+    </div>
+    <div class="form-group">
+        <label class="form-label" asp-for="NewEmail"></label>
+        <input class="form-control" asp-for="NewEmail">
+    </div>
+    <div class="mb-3">
+        <span class=".error-message" asp-validation-for="NewEmail"></span>
+    </div>
+    <div class="form-group">
+        <label class="form-label" asp-for="NewPassword"></label>
+        <input class="form-control" asp-for="NewPassword">
+    </div>
+    <div class="mb-3">
+        <span class=".error-message" asp-validation-for="NewPassword"></span>
+    </div>
+    <div class="form-group">
+        <label class="form-label" asp-for="ConfirmNewPassword"></label>
+        <input class="form-control" asp-for="ConfirmNewPassword">
+    </div>
+    <div class="mb-3">
+        <span class=".error-message" asp-validation-for="ConfirmNewPassword"></span>
+    </div>
+    <input class="btn btn-primary" value="Register" type="submit">
+</form>
