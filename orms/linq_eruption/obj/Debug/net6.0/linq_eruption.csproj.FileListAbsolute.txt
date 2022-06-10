@@ -1,0 +1,15 @@
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\Csharp\orms\linq_eruption\bin\Debug\net6.0\linq_eruption.exe
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\Csharp\orms\linq_eruption\bin\Debug\net6.0\linq_eruption.deps.json
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\Csharp\orms\linq_eruption\bin\Debug\net6.0\linq_eruption.runtimeconfig.json
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\Csharp\orms\linq_eruption\bin\Debug\net6.0\linq_eruption.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\Csharp\orms\linq_eruption\bin\Debug\net6.0\linq_eruption.pdb
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\Csharp\orms\linq_eruption\obj\Debug\net6.0\linq_eruption.csproj.AssemblyReference.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\Csharp\orms\linq_eruption\obj\Debug\net6.0\linq_eruption.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\Csharp\orms\linq_eruption\obj\Debug\net6.0\linq_eruption.AssemblyInfoInputs.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\Csharp\orms\linq_eruption\obj\Debug\net6.0\linq_eruption.AssemblyInfo.cs
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\Csharp\orms\linq_eruption\obj\Debug\net6.0\linq_eruption.csproj.CoreCompileInputs.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\Csharp\orms\linq_eruption\obj\Debug\net6.0\linq_eruption.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\Csharp\orms\linq_eruption\obj\Debug\net6.0\refint\linq_eruption.dll
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\Csharp\orms\linq_eruption\obj\Debug\net6.0\linq_eruption.pdb
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\Csharp\orms\linq_eruption\obj\Debug\net6.0\linq_eruption.genruntimeconfig.cache
+C:\Users\nprat\OneDrive\Documents\Coding_Dojo\Assignments\Csharp\orms\linq_eruption\obj\Debug\net6.0\ref\linq_eruption.dll
