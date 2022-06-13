@@ -72,10 +72,12 @@ public class HomeController : Controller
         Dojodachi dojodachi = HttpContext.Session.GetObjectFromJson<Dojodachi>("Dojodachi");
         if(dojodachi.checkDead())
         {
+            HttpContext.Session.SetObjectAsJson("Dojodachi", dojodachi);
             return Json("dead");
         }
         else if(dojodachi.checkWin())
         {
+            HttpContext.Session.SetObjectAsJson("Dojodachi", dojodachi);
             return Json("win");
         }
         else

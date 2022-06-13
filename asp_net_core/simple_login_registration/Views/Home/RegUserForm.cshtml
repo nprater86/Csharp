@@ -1,40 +1,40 @@
-@model RegUser
+@model IndexViewModel
 
-<form asp-controller="user" asp-action="register" method="post">
+<form class="form-width" asp-controller="user" asp-action="register" method="post">
     <div class="form-group">
-        <label class="form-label" asp-for="FirstName"></label>
-        <input class="form-control" asp-for="FirstName">
+        <label class="form-label" asp-for="regUser.FirstName"></label>
+        <input class="form-control" asp-for="regUser.FirstName">
     </div>
     <div class="mb-3">
-        <span class=".error-message" asp-validation-for="FirstName"></span>
+        <span class="error-message" asp-validation-for="regUser.FirstName"></span>
     </div>
     <div class="form-group">
-        <label class="form-label" asp-for="LastName"></label>
-        <input class="form-control" asp-for="LastName">
+        <label class="form-label" asp-for="regUser.LastName"></label>
+        <input class="form-control" asp-for="regUser.LastName">
     </div>
     <div class="mb-3">
-        <span class=".error-message" asp-validation-for="LastName"></span>
+        <span class="error-message" asp-validation-for="regUser.LastName"></span>
     </div>
     <div class="form-group">
-        <label class="form-label" asp-for="NewEmail"></label>
-        <input class="form-control" asp-for="NewEmail">
+        <label class="form-label" asp-for="regUser.Email"></label>
+        <input class="form-control" asp-for="regUser.Email">
     </div>
     <div class="mb-3">
-        <span class=".error-message" asp-validation-for="NewEmail"></span>
+        <span class="error-message" asp-validation-for="regUser.Email"></span>
     </div>
     <div class="form-group">
-        <label class="form-label" asp-for="NewPassword"></label>
-        <input class="form-control" asp-for="NewPassword">
+        <label class="form-label" asp-for="regUser.Password"></label>
+        <input class="form-control" asp-for="regUser.Password">
     </div>
     <div class="mb-3">
-        <span class=".error-message" asp-validation-for="NewPassword"></span>
+        <span class="error-message" asp-validation-for="regUser.Password"></span>
     </div>
     <div class="form-group">
-        <label class="form-label" asp-for="ConfirmNewPassword"></label>
-        <input class="form-control" asp-for="ConfirmNewPassword">
+        <label class="form-label" asp-for="regUser.ConfirmNewPassword"></label>
+        <input class="form-control" asp-for="regUser.ConfirmNewPassword">
     </div>
     <div class="mb-3">
-        <span class=".error-message" asp-validation-for="ConfirmNewPassword"></span>
+        <span class="error-message" asp-validation-for="regUser.ConfirmNewPassword"></span>
     </div>
     <input class="btn btn-primary" value="Register" type="submit">
 </form>

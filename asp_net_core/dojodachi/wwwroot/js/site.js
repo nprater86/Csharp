@@ -50,6 +50,9 @@ async function updateStats(){
         case "eat":
             mood.src="./images/eat.png";
             break;
+        case "sleep":
+            mood.src="./images/sleep.png";
+            break;
         default:
             mood.src="./images/neutral.png";
     }
@@ -117,6 +120,7 @@ async function checkWin(){
         workBtn.style.display = "none";
         sleepBtn.style.display = "none";
         restartBtn.style.display = "block";
+        updateStats();
 
     } else if (messageResult == "win") {
         message.innerHTML = "Congratulations! You won! Hit restart to play again!";
@@ -125,5 +129,6 @@ async function checkWin(){
         workBtn.style.display = "none";
         sleepBtn.style.display = "none";
         restartBtn.style.display = "block";
+        updateStats();
     }
 }

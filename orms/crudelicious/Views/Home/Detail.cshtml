@@ -1,0 +1,24 @@
+@model Dish
+
+@{
+    ViewData["Title"] = "CRUDElicious | New";
+}
+
+<div>
+    <div class="mt-5 mb-5 pb-5 border-bottom border-info">
+        <a href="/">Home</a>
+        <h1 class="text-center">@Model.Name</h1>
+        <h3 class="text-center">@Model.Chef</h3>
+    </div>
+    <p class="mb-5">@Model.Description</p>
+    <p><strong>Calories:</strong> @Model.Calories</p>
+    <p><strong>Tastiness Level:</strong> @Model.Tastiness</p>
+    <div class="row text-center mt-5">
+        <div class="col">
+            <a href="delete/@Model.DishId"><button class="btn btn-danger">Delete</button></a>
+        </div>
+        <div class="col">
+            <a href="edit/@Model.DishId"><button class="btn btn-warning">Edit</button></a>
+        </div>
+    </div>
+</div>

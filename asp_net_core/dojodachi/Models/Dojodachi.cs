@@ -87,6 +87,7 @@ namespace dojodachi.Models
             Energy += 15;
             Fullness -= 5;
             Happiness -= 5;
+            Mood = "sleep";
             return "Dojodachi gets some good sleep! Gained 15 Energy but lost 5 Fullness and 5 Happiness.";
         }
 
