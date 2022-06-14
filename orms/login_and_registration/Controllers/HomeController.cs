@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Identity;
 using login_and_registration.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace login_and_registration.Controllers;
 
@@ -38,6 +39,7 @@ public class HomeController : Controller
             //save user to DB
             _context.Add(newUser);
             _context.SaveChanges();
+            HttpContext.Session.SetString("FirstName",newUser.FirstName);
             return RedirectToAction("Success");
         }
         else
@@ -46,7 +48,7 @@ public class HomeController : Controller
         }
     }
 
-    [HttpGet("/login")]
+    [HttpGet("login")]
     public IActionResult Login()
     {
         return View();
@@ -76,6 +78,7 @@ public class HomeController : Controller
                 ModelState.AddModelError("Email", "Invalid Email/Password");
                 return View("Login");
             }
+            HttpContext.Session.SetString("FirstName",userInDb.FirstName);
             return RedirectToAction("Success");
         }
         else
@@ -88,6 +91,20 @@ public class HomeController : Controller
     [Route("success")]
     public IActionResult Success()
     {
-        return View();
+        if(HttpContext.Session.GetString("FirstName") == null)
+        {
+            return RedirectToAction("Login");
+        }
+        else
+        {
+            return View();
+        }
+    }
+
+    [HttpGet("logout")]
+    public IActionResult Logout()
+    {
+        HttpContext.Session.Clear();
+        return RedirectToAction("Login");
     }
 }

@@ -1,9 +1,13 @@
+@using Microsoft.AspNetCore.Http;
+
 @{
     ViewData["Title"] = "S U C C E S S";
 }
 
-<div class="position-relative">
-    <div class="position-absolute top-50 start-50 translate-middle">
+<div class="position-absolute top-50 start-50 translate-middle">
+    <div class="text-center">
         <h1 style="color:red;">S U C C E S S !</h1>
+        <h4>Welcome, @Context.Session.GetString("FirstName")!</h4>
+        <a href="/logout">Logout</a>
     </div>
 </div>
