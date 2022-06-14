@@ -1,0 +1,13 @@
+﻿@model User;
+
+@{
+    ViewData["Title"] = "Login/Register";
+}
+
+<div class="d-flex flex-column w-100">
+    <a href="/login" class="align-self-end">Login</a>
+    <div class="d-flex flex-column">
+        <h1 class="mb-3">Register to this Cool Site!</h1>
+        <partial name="RegUserForm">
+    </div>
+</div>
