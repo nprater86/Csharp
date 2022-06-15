@@ -1,0 +1,65 @@
+@model Dish;
+
+@{
+    ViewData["Title"] = "Add a Dish";
+}
+
+<div class="d-flex w-100 align-items-center justify-content-center mt-5 mb-3">
+    <h1 class="m-auto">Add a Dish!</h1>
+    <a href="/">Home</a>
+</div>
+<form asp-action="SaveDish" asp-controller="Home" method="post">
+    <div class="row gap-5">
+        <div class="col-3">
+            <div class="row mb-3">
+                <label class="form-label" asp-for="Name">Name of Dish:</label>
+                <input class="form-control" asp-for="Name">
+                <small><span class="text-danger" asp-validation-for="Name"></span></small>
+            </div>
+            <div class="row mb-3">
+                <label class="form-label" asp-for="Calories"># Of Calories:</label>
+                <input class="form-control" asp-for="Calories">
+                <small><span class="text-danger" asp-validation-for="Calories"></span></small>
+            </div>
+            <div class="row mb-3">
+                <label class="form-label" asp-for="Description">Description:</label>
+                <textarea class="form-control" style="resize: none;" rows="5" asp-for="Description"></textarea>
+                <small><span class="text-danger" asp-validation-for="Description"></span></small>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="row mb-5">
+                <label class="form-label" asp-for="ChefId">Chef:</label>
+                <select class="form-select" asp-for="ChefId">
+                    <option selected hidden disabled>Choose Chef...</option>
+                    @{
+                        foreach(var chef in ViewBag.AllChefs)
+                        {
+                            <option value="@chef.ChefId">@chef.FirstName @chef.LastName</option>
+                        }
+                    }
+                </select>
+                <small><span class="text-danger" asp-validation-for="ChefId"></span></small>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="row mb-5">
+                <label class="form-label" asp-for="Tastiness">Tastiness:</label>
+                <select class="form-select" asp-for="Tastiness">
+                    <option value="0" selected hidden disabled>Select Level...</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <small><span class="text-danger" asp-validation-for="Tastiness"></span></small>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div>
+            <input type="submit" class="btn btn-primary" value="Add Dish">
+        </div>
+    </div>
+</form>

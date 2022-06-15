@@ -1,0 +1,44 @@
+﻿@model List<Chef>;
+
+@{
+    ViewData["Title"] = "Chefs";
+}
+
+<div class="d-flex w-100 align-items-center justify-content-center mt-5 mb-3">
+    <h1 class="m-auto">Chefs | <a href="/dishes">Dishes</a></h1>
+    <a href="/new">Add a Chef</a>
+</div>
+<div class="row mb-3">
+    <h2 class="pb-3 border-bottom border-dark">Check out our roster of Chefs!</h2>
+</div>
+<div class="row">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Age</th>
+                <th scope="col"># of Dishes</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach(var chef in Model)
+                {
+                    <tr>
+                        <td>@chef.FirstName @chef.LastName</td>
+                        @{
+                            //save today's date
+                            var today = DateTime.Today;
+                            //calculate the age
+                            var age = today.Year - chef.DateOfBirth.Year;
+                            //go back to the year in which the person was born in case of a leap year
+                            if (chef.DateOfBirth > today.AddYears(-age)) age--;
+                            <td>@age</td>
+                        }
+                        <td>@chef.CreatedDishes.Count</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
