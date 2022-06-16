@@ -1,0 +1,31 @@
+@{
+    ViewData["Title"] = "Bank | Dashboard";
+}
+
+<div class="d-flex align-items-center justify-content-between">
+    <h1 class="display-4 mt-5 mb-5">Welcome, @ViewBag.user.FirstName!</h1>
+    <h1 class="display-6">Current Balance: $<span class="border">@ViewBag.user.balance().ToString("N")</span></h3>
+</div>
+<partial class="mb-3" name="_CreateTransactionForm" view-data="ViewData" />
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Amount</th>
+            <th scope="col">Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            List<Transaction> transactions = ViewBag.user.UserTransactions;
+            transactions.Sort((x,y) => y.CreatedAt.CompareTo(x.CreatedAt));
+
+            foreach(var t in transactions)
+            {
+                <tr>
+                    <td>$@t.Amount.ToString("N")</td>
+                    <td>@t.CreatedAt.ToShortDateString()</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

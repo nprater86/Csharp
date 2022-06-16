@@ -1,0 +1,20 @@
+@model Transaction;
+
+<form asp-action="CreateTransaction" asp-controller="Home" method="post">
+    <input type="hidden" name="UserId" value="@ViewBag.user.UserId">
+    <div class="row">
+        <div class="col-2">
+            <label class="col-form-label" asp-for="Amount">Deposit/Withdraw</label>
+        </div>
+        <div class="col-3">
+            <div class="input-group">
+                <div class="input-group-text">$</div>
+                <input class="form-control" type="number" name="Amount" step="0.01">
+            </div>
+        </div>
+        <div class="col-2">
+            <input class="btn btn-primary" type="submit" value="Submit">
+        </div>
+    </div>
+    <small><span class="text-danger" asp-validation-for="Amount"></span></small>
+</form>

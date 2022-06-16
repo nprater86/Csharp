@@ -1,0 +1,45 @@
+@{
+    ViewData["Title"] = "Bank | Login";
+}
+
+@model LogUser;
+
+<div>
+    <div class="text-center">
+        <h1 class="display-4 mb-5">Login</h1>
+    </div>
+    <form asp-action="LoginUser" asp-controller="Home" method="post">
+        <div class="row mb-3">
+            <div class="col-3">
+                <label class="col-form-label" asp-for="Email">Email:</label>
+            </div>
+            <div class="col-3">
+                <input class="form-control" asp-for="Email">
+                <small><span class="text-danger" asp-validation-for="Email"></span></small>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-3">
+                <label class="col-form-label" asp-for="Password">Password:</label>
+            </div>
+            <div class="col-3">
+                <input class="form-control" asp-for="Password">
+                <small><span class="text-danger" asp-validation-for="Password"></span></small>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+            </div>
+            <div class="col-3 d-flex justify-content-end">
+                <input class="btn btn-primary mb-3" type="submit" value="Login">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+            </div>
+            <div class="col-3 d-flex justify-content-end">
+                <a href="/">New to the site? Register here.</a>
+            </div>
+        </div>
+    </form>
+</div>
