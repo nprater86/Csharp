@@ -8,11 +8,9 @@ namespace bank_accounts.Models
     {
         [Required]
         [EmailAddress]
-        [NotMapped]
         public string Email {get; set;}
         [Required]
         [DataType(DataType.Password)]
-        [NotMapped]
         public string Password {get; set;}
     }
 }

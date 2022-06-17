@@ -1,0 +1,52 @@
+@{
+    ViewData["Title"] = "Categories";
+}
+
+@model Categorization;
+
+<div class="d-flex justify-content-center">
+    <h1 class="display-4 mt-5 mb-5"><a href="/products">Products</a> | <a href="/categories">Categories</a></h1>
+</div>
+<div class="d-flex flex-column align-items-center mb-5">
+    <h1 class="display-5 mb-3">@ViewBag.Product.Name</h1>
+    <p>@ViewBag.Product.Description</p>
+</div>
+<div class="row w-100 justify-content-center">
+    <div class="col-6">
+        <h1 class="display-6">Categories:</h1>
+        <ul>
+        @{
+            foreach(var c in ViewBag.Product.Categories)
+            {
+                <li><a href="/categories/@c.Category.CategoryId">@c.Category.Name</a></li>
+            }
+        }
+        </ul>
+    </div>
+    <div class="col-6 d-flex flex-column">
+        <form asp-action="AddCategoryToProduct" asp-controller="Home">
+            <input name="ProductId" type="hidden" value="@ViewBag.Product.ProductId">
+            <div class="row">
+                <div class="col-4">
+                    <label class="form-label" asp-for="CategoryId">Add Category:</label>
+                    <select class="form-select" asp-for="CategoryId">
+                        @{
+                            foreach(var category in ViewBag.Categories)
+                            {
+                                <option value="@category.CategoryId">@category.Name</option>
+                            }
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <small><span class="text-danger" asp-validation-for="CategoryId"></span></small>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <input type="submit" class="btn btn-primary">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
