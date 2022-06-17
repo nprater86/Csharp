@@ -1,0 +1,85 @@
+@{
+    ViewData["Title"] = "Plan Wedding";
+}
+
+@model Wedding;
+@using Microsoft.AspNetCore.Http;
+@{
+    int UserId = (int)Context.Session.GetInt32("UserId");
+}
+
+<div class="d-flex justify-content-between w-100 mt-5 mb-5">
+    <h1 class="display-4">Plan Your Wedding</h1>
+    <div class="align-self-center">
+        <a href="/dashboard">Dashboard</a>
+        <a href="/logout">Logout</a>
+    </div>
+</div>
+<form asp-action="SaveWedding" asp-controller="Wedding">
+    <input type="hidden" asp-for="UserId" value="@UserId">
+    <div class="row">
+        <div class="col-3">
+            <label class="col-form-label" asp-for="WedderOne"></label>
+        </div>
+        <div class="col-5">
+            <input class="form-control" asp-for="WedderOne">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-3">
+        </div>
+        <div class="col">
+            <small><span class="text-danger" asp-validation-for="WedderOne"></span></small>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <label class="col-form-label" asp-for="WedderTwo"></label>
+        </div>
+        <div class="col-5">
+            <input class="form-control" asp-for="WedderTwo">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-3">
+        </div>
+        <div class="col">
+            <small><span class="text-danger" asp-validation-for="WedderTwo"></span></small>
+        </div>
+    </div>
+        <div class="row">
+        <div class="col-3">
+            <label class="col-form-label" asp-for="Date"></label>
+        </div>
+        <div class="col-2">
+            <input type="date" class="form-control" asp-for="Date">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-3">
+        </div>
+        <div class="col">
+            <small><span class="text-danger" asp-validation-for="Date"></span></small>
+        </div>
+    </div>
+        <div class="row">
+        <div class="col-3">
+            <label class="col-form-label" asp-for="Address"></label>
+        </div>
+        <div class="col-5">
+            <input class="form-control" asp-for="Address">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-3">
+        </div>
+        <div class="col">
+            <small><span class="text-danger" asp-validation-for="Address"></span></small>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-8 text-end">
+            <input class="btn btn-primary" type="submit" value="Create">
+        </div>
+    </div>
+</form>

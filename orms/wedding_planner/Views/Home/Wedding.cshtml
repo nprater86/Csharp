@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "Plan Wedding";
+}
+
+<div class="d-flex justify-content-between w-100 mt-5 mb-5">
+    <h1 class="display-4">@ViewBag.Wedding.WedderOne and @ViewBag.Wedding.WedderTwo's Wedding</h1>
+    <div class="align-self-center">
+        <a href="/dashboard">Dashboard</a>
+        <a href="/logout">Logout</a>
+    </div>
+</div>
+<h1 class="display-6 mb-5">Date: @ViewBag.Wedding.Date.ToString("MMMM dd, yyyy")</h1>
+<h1 class="display-6 mb-3">Guests:</h1>
+<ul>
+    @{
+        foreach(var attendee in ViewBag.Wedding.Attendees)
+        {
+            <li>@attendee.User.FirstName @attendee.User.LastName</li>
+        }
+    }
+</ul>
